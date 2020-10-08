@@ -1,0 +1,9 @@
+# 项目文件
+.settings/
+.vscode/
+.idea/
+.classpath
+.project
+
+# class 文件
+WebContent/WEB-INF/classes/

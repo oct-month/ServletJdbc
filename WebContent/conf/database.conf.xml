@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="database.conf.xsd">
+
+    <driver>com.mysql.cj.jdbc.Driver</driver>
+    <url>jdbc:mysql://182.92.175.167:3306/test?useUnicode=true&amp;characterEncoding=utf8</url>
+    <user>test</user>
+    <password>test</password>
+
+</datasource>

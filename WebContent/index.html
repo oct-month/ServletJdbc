@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>主页</title>
+</head>
+<body>
+	<form action="getaStudentServlet" method="GET" accept-charset="UTF-8">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="id" placeholder="输入id..." />
+				</td>
+				<td>
+					<input type="submit" value="查询" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<hr/>
+	<form action="getStudentsServlet" method="GET" accept-charset="UTF-8">
+		<table>
+			<tr>
+				<td>
+					<input type="submit" value="查询所有" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<hr/>
+	<form action="postaStudentServlet" method="POST" accept-charset="UTF-8">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="name" placeholder="输入name..." />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="grade" placeholder="输入grade..." />
+				</td>
+				<td colspan="2">
+					<input type="submit" value="增加" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<hr/>
+	<form action="deleteaStudentServlet" method="POST" accept-charset="UTF-8">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="id" placeholder="输入id..." />
+				</td>
+				<td>
+					<input type="submit" value="删除" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<hr/>
+	<form action="putaStudentServlet" method="POST" accept-charset="UTF-8">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="id" placeholder="输入id..." />
+				</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="name" placeholder="输入name..." /></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="grade" placeholder="输入grade..." />
+				</td>
+				<td colspan="3">
+					<input type="submit" value="修改" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
